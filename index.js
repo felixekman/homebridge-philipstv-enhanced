@@ -52,8 +52,8 @@ function HttpStatusAccessory(log, config) {
     }
 
     // CONNECTION SETTINGS
-    this.protocol = this.has_ssl ? "https" : "http";
-    this.portno = this.has_ssl ? "1926" : "1925";
+    this.protocol = this.has_ssl ? "https" : "https";
+    this.portno = this.has_ssl ? "1926" : "1926";
     this.need_authentication = this.username != '' ? 1 : 0;
 
     this.log("Model year: " + this.model_year_nr);
